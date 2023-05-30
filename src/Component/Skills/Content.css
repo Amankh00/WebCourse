@@ -12,6 +12,7 @@
     height: 100%;
 }
 
+
 .H
 {
     color: rgb(232, 20, 59);
@@ -25,7 +26,7 @@ h2,h1
   text-align: center;
  
 }
-.d1,.d2,.d3,.d4,.d5,.d6
+.d1
 {
     display: flex;
     flex-direction: column;
@@ -33,11 +34,23 @@ h2,h1
     justify-content: center;
     gap: 40px;
     background: rgb(248, 243, 243);
-    height: 320px;
+    height: 330px;
+    max-width: 350px;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 20px 20px 2px 2px;
+    margin: auto;
+    transition: all 2s;
+    transform: perspective(800px) rotateY(30deg);
+   
 }
+
+.d1:hover
+{
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+ 
 
 i
 {

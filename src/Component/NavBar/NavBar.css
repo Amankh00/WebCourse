@@ -1,6 +1,6 @@
 .navbar {
   background-color:black;
-  opacity: .7;
+  opacity:1;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -8,6 +8,7 @@
   padding: 10px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .navbar-logo {
@@ -169,7 +170,7 @@
     left: 0;
     width: 100%;
     padding: 10px;
-
+   opacity: .8;
   }
 
   .navbar.open .navbar-menu li {
