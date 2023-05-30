@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+  background-image: url("Images/r.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* padding-bottom: 110px; */
+    grid-gap: 3rem;
+    
+}
+
+.head h1
+{
+   color: #e782ddcb;
+   font-family:poppins;
+   animation:  animation  5s alternate ease-in-out  ;
+   margin-left: 5px;
+   font-size: 35px;
+   transition: all 3s ease-in-out;
+ 
+   background:transparent;
+}
+.head h1:hover
+{
+    border-radius: 10%;
+    color: red;
+}
+
+.second
+{
+    margin-right: 0;
+    padding:12px;
+    grid-gap: 2px;
+    text-align: right;
+    margin-top: 10%;
+}
+.second .btn 
+{
+  background: transparent;
+  color: white;
+  padding: 5px;
+  border-radius: 20%;
+  border:none;
+  font-size: large;
+  
+}
+.search::placeholder
+{
+    color: white;
+    font-size: medium;
+    background: transparent;
+    border-right: none;
+}
+.search
+{
+    background: transparent;
+    padding: 5px;
+    border-radius: 8px;
+    border:2px solid orange;
+    border-right: none;
+    transition: 3s all;
+}
+
+.search:hover
+{
+  padding: 8px 20px;;
+}
+
+.search:focus
+{
+    outline: none;
+}
+
+
+
+
+.third
+{
+    padding-left: 8px;
+    width: fit-content;
+    text-align: center;
+    grid-column: 1/span 2;
+    height: 100%;
+   
+}
+
+.head h1
+{
+    font-size: medium;
+}
+
+.third .rad
+{
+font-size: 50px;
+line-height: 60px;
+white-space: pre;
+word-spacing: 10px;
+text-align: left;
+}
+
+span
+{
+    color: orange;
+    font-size: 60px;
+}
+.third p 
+{
+    padding: 5px;
+    text-align: left;
+    color: antiquewhite;
+    font-size: large;
+}
+.third .para
+{
+    word-spacing: 2px; 
+    margin: auto;
+    font-size: medium;
+}
+
+.headimg
+{
+    display: flex;
+    width: 100%;
+    text-align: right;
+    align-items: end;
+    justify-content: end;
+ 
+}
+.headimg img
+{
+    width: 80%;
+    margin-bottom: 10%;
+    height: 500px;
+}
+
+
+
+@media screen and (max-width:920px) {
+    .container
+    {
+        
+        display: flex;
+        flex-direction: column ;
+        grid-gap: 3px;
+        column-width: auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        
+    }
+    
+    .headimg img
+    {
+        width: 80%;
+        margin: 10%;
+        height: 450px;
+    }
+    
+}
+
+
+@media screen and (max-width:640px) {
+.third .rad
+{
+   width: fit-content;
+   font-size: 30px;
+}
+.second input
+{
+    margin-top: 10%;
+}
+}
+@media screen and (max-width:520px) {
+
+    .container
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        column-width: auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        
+    }
+    .rad
+    {
+        font-size: medium;
+    }
+
+    .first a
+     {
+     font-size: 18px;
+     }
+     .third h1 ,span
+     {
+        font-size: 30px;
+     }
+     .third p 
+     {
+        text-align: justify;
+     }
+     .third .para 
+     {
+        text-align: justify;
+        width: 80%;
+        padding: 0;
+        margin: 0;
+     }
+     
+     .headimg img
+     {
+         width: 80%;
+         margin: 10%;
+         height: 100%;
+     }
+     
+}
+
+
+@media screen and (max-width:380px) {
+    .container
+    {
+
+        font-size: 12px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        column-width: auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+       
+    }
+    .first a
+     {
+     font-size: 16px;
+     padding: 5px;
+     }
+     .third .rad,span
+     {
+        font-size: 25px;
+     }
+     .third p 
+     {
+        text-align: justify;
+     }
+     
+     pre
+     {
+        font-size: 20px;
+     }
+   
+}
+
+@media screen and (max-width:280px) {
+    .container
+    {
+        font-size: 12px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        column-width: auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+     }
+     .first a
+     {
+     font-size: 14px;
+     padding: 5px;
+     }
+     .third h1 ,span
+     {
+        font-size: 30px;
+     }
+     .third p 
+     {
+        text-align: justify;
+     }
+
+}

@@ -1,0 +1,49 @@
+.pro
+ {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    color: aliceblue;
+    gap: 20px;
+    background: rgb(22, 95, 7);
+
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-bottom: 2%;
+ }
+
+ .pro1 div , .pro2 p {
+  padding-bottom: 20px;
+ }
+
+.pro1, .pro2
+{
+    margin:  0;
+    align-items: center;
+    padding: 5% 5%;
+    text-align: center;
+    
+}
+
+.feeImage {
+    grid-column: 1 / span 2; /* Make the image span two columns */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .feeImage img {
+    width: 50%;
+    height: 400px;
+    padding-bottom: 10px;
+  }
+  @media (max-width:635px)
+{
+  .pro
+  {
+  display: flex;
+  flex-direction: column;
+  }
+}
