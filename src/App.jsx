@@ -1,10 +1,6 @@
-
-import Home from './Component/Home/Home';
-import About from './Component/About/About';
-import Content from './Component/Skills/Content';
+import React from 'react';
 import { BrowserRouter,Route,Routes} from 'react-router-dom';
-import ContactForm from './Component/ContactForm/ContactForm';
-import ProgramFee from './Component/ProgrameFee/ProgrameFee';
+
 import NavBar from './Component/NavBar/NavBar';
 function App() 
 {
