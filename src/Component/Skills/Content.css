@@ -3,7 +3,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background: rgb(211, 208, 201);
+    /* background: rgb(211, 208, 201); */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -15,9 +15,12 @@
 
 .H
 {
-    color: rgb(232, 20, 59);
     padding: 20px;
-    background:rgb(206, 203, 197)
+    background:linear-gradient(to right, red,rgb(121, 121, 211),yellow);
+ -webkit-background-clip:text;
+ -webkit-text-fill-color:transparent;
+ margin-top: 5%;
+
 }
 
 h2,h1
