@@ -5,8 +5,10 @@ const About = ()=>
 {
     return(
         <>
-   
-        <div className="mainContent" id="About">
+        <div id="About"></div>
+        <div></div>
+      <h1>About Us </h1>
+        <div className="mainContent" >
     
             <div className="div1">
             <h1>  Our program makes you 5x more job-ready!</h1>

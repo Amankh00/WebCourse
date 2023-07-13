@@ -6,8 +6,8 @@ const Content = ()=>
 {
     return(
         <>
-       
-        <h1 className="H" id="Content">A course that converts beginners into Full Stack Developers</h1>
+       <div id="Content"></div>
+        <h1 className="H" >A course that converts beginners into Full Stack Developers</h1>
         <div className="con"  >
      <div className="d1" ><i class="fa-solid fa-code fa-2xl"></i><h2>No coding background needed</h2><p>Start your coding journey without any prior background. Learn Java, HTML, CSS, React, MongoDB from scratch.
         </p></div>

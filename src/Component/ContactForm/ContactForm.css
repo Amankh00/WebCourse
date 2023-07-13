@@ -1,3 +1,7 @@
+#Contact
+{
+  height: 30px;
+}
 
 .Conhead
 {
@@ -5,7 +9,6 @@
   text-transform: uppercase;
   font-family: 'Alkatra', cursive;
   font-size: 30px;
-  margin-top: 20px;
  color: rgb(1, 47, 4);
  margin-top: 9%;
 }
@@ -19,7 +22,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  grid-gap: 60px;
+  grid-gap: 220px;
 
 }
 .contact-info

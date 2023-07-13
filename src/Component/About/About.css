@@ -7,7 +7,11 @@
     align-items: center;
     padding: 6% 0;
 } 
+#About
+{
 
+    height: 100px;
+}
 .div1
 {
     width: 70%;

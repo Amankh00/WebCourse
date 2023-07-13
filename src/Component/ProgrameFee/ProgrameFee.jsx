@@ -6,8 +6,9 @@ const ProgramFee = ()=>
     return(
 
         <>
-        <h1 className="H">PayMent SecTion</h1>
-        <div className="pro" id="fees">
+        <div id="fees"></div>
+        <h1 className="H" >PayMent SecTion</h1>
+        <div className="pro" >
             <div className="pro1">
                 <div>Programe Fee---</div>
                 <div>45,000/- Rupees(+GST)</div>

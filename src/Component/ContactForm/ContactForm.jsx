@@ -6,7 +6,7 @@ const ContactForm = ()=>
     return(
         <>
 
-
+<div id="Contact"></div>
 <h1 className="Conhead"  id="Contact">Contact Us</h1>
         
          <div className="Contact" >
