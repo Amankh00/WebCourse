@@ -28,17 +28,20 @@
 }
 
 .feeImage {
-    grid-column: 1 / span 2; /* Make the image span two columns */
-    width: 100%;
+   
+    width: 60%;
+    height: 60vh;
     display: flex;
     justify-content: center;
+    margin: auto;
+    align-items: center;
     margin-bottom: 10%;
+
   }
   
   .feeImage img {
-    width: 50%;
-    height: 400px;
-    padding-bottom: 10px;
+ width: 100%;
+ height: 100%;
   }
   @media (max-width:635px)
 {

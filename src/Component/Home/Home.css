@@ -9,7 +9,7 @@
 body{
     width: 100%;
     height: 100%;
-  background-image: url("https://images.unsplash.com/photo-1684933974775-ea6f08012bac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=701&q=80");
+  background-image: url("https://images.unsplash.com/photo-1535463731090-e34f4b5098c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80");
     background-size: cover;
     background-repeat: no-repeat;
    background-attachment: fixed;
@@ -27,7 +27,7 @@ body{
 
 .head h1
 {
-   color: #e782ddcb;
+   color: #e53ad4cb;
    font-family:poppins;
    animation:  animation  5s alternate ease-in-out  ;
    margin-left: 5px;
@@ -124,8 +124,9 @@ span
 {
     padding: 5px;
     text-align: left;
-    color: antiquewhite;
+    color: rgba(9, 9, 9, 0.701);
     font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .third .para
 {
@@ -174,7 +175,13 @@ span
     }
     
 }
-
+@media screen and (max-width:840px) {
+ 
+    .second input
+    {
+        margin-top: 5%;
+    }
+    }
 
 @media screen and (max-width:640px) {
 .third .rad
@@ -184,7 +191,7 @@ span
 }
 .second input
 {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 }
 @media screen and (max-width:520px) {

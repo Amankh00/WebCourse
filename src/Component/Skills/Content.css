@@ -16,7 +16,8 @@
 .H
 {
     padding: 20px;
-    background:linear-gradient(to right, red,rgb(121, 121, 211),yellow);
+    background:linear-gradient(to right, rgb(249, 1, 1),rgb(6, 188, 21),rgb(5, 232, 191));
+    background-clip:text ;
  -webkit-background-clip:text;
  -webkit-text-fill-color:transparent;
  margin-top: 5%;
@@ -74,6 +75,10 @@ i
     {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+    }
+    h1
+    {
+        font-size: large;
     }
 }
 

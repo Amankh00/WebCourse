@@ -33,7 +33,7 @@ const ContactForm = ()=>
         <input type="email" required placeholder="Your Email" />
         <input type="text" required placeholder="Your Address"id="adress"/>
         <input type="text" required placeholder="Enter Your Message" id="mesg"/>
-        <input type="checkbox" id="chk" /> <p className="para"> I agree that provider can contact me at the email address or phone number Above</p>
+        <input type="checkbox" id="chk" required /> <p className="para"> I agree that provider can contact me at the email address or phone number Above</p>
         <input type="submit" />
          
         </div>
